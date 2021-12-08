@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HBGradientBlur_Example' do
+  pod 'HBGradientBlur', :path => '../'
+
+  target 'HBGradientBlur_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
