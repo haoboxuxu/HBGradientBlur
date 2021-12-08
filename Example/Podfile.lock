@@ -1,0 +1,16 @@
+PODS:
+  - HBGradientBlur (0.1.0)
+
+DEPENDENCIES:
+  - HBGradientBlur (from `../`)
+
+EXTERNAL SOURCES:
+  HBGradientBlur:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBGradientBlur: 786dec6342550fb382671dc3f2ea6dea78004c54
+
+PODFILE CHECKSUM: a01d13ea5fc688e699c09d705324c5c4f891ca1a
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module Pods_HBGradientBlur_Example {
+  umbrella header "Pods-HBGradientBlur_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

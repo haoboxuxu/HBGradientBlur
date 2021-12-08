@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import HBGradientBlur
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var coverImageView: UIImageView!
+    
+    let gradientView = HBHBGradientBlurView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        coverImageView.layer.cornerRadius = 20
+        gradientView.config(coverImageView.image!)
+        view.addSubview(gradientView)
+        gradientView.layer.zPosition = -1
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        gradientView.frame = view.bounds
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        super.viewDidLayoutSubviews()
     }
 
 }
