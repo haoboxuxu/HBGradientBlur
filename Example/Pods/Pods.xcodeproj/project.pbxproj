@@ -12,8 +12,8 @@
 		5640BF68FA53C58A8398161C53769203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8AB06FC460BB78E667536F2773E1EA19 /* HBGradientBlur-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A0D7A26061AED74C7A23746B2C4052 /* HBGradientBlur-dummy.m */; };
 		9B5123EFACE50EDE2327A0DDB5AC92CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D878019E2761F47100BAC7C9 /* HBHBGradientBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878019D2761F47100BAC7C9 /* HBHBGradientBlurView.swift */; };
 		D887450B2760558E00133FC5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887450A2760558E00133FC5 /* UIImage+Extension.swift */; };
-		D887450D276056C300133FC5 /* HBHBGradientBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887450C276056C300133FC5 /* HBHBGradientBlurView.swift */; };
 		DAEE24AF4A603A319DF4D88DC20BC3EB /* Pods-HBGradientBlur_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 975DDF31A5C0EFBD764488EC16F14347 /* Pods-HBGradientBlur_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD8515B0BB9BBDD0D30C7872959BF49F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E08CA62385938ABC9CE55FF9AE2D6C09 /* HBGradientBlur-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D3E88CFC59A9486396E677CF66DC1A /* HBGradientBlur-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,8 +64,8 @@
 		C5721E4696368481A3A9361BC6B52972 /* Pods-HBGradientBlur_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBGradientBlur_Example.modulemap"; sourceTree = "<group>"; };
 		CE379DF6E5460290CB088C7D84A559A3 /* Pods-HBGradientBlur_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBGradientBlur_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D512BA277E1B078859D6E5D8553F4A4E /* Pods-HBGradientBlur_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBGradientBlur_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D878019D2761F47100BAC7C9 /* HBHBGradientBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HBHBGradientBlurView.swift; path = HBGradientBlur/Classes/HBHBGradientBlurView.swift; sourceTree = "<group>"; };
 		D887450A2760558E00133FC5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Extension.swift"; path = "HBGradientBlur/Classes/UIImage+Extension.swift"; sourceTree = "<group>"; };
-		D887450C276056C300133FC5 /* HBHBGradientBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBHBGradientBlurView.swift; sourceTree = "<group>"; };
 		DD90373CC09ACB2D1C30AD3D726F7EB0 /* Pods-HBGradientBlur_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBGradientBlur_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0E8ED6A6640E35AB87D7AE0AAED35DB /* HBGradientBlur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBGradientBlur.release.xcconfig; sourceTree = "<group>"; };
 		E56607343C0D61AD619A6E6FF6F983D4 /* HBGradientBlur.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HBGradientBlur.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -200,8 +200,8 @@
 		EAFB0A1B6CB9909B3428F94A600C4FB2 /* HBGradientBlur */ = {
 			isa = PBXGroup;
 			children = (
+				D878019D2761F47100BAC7C9 /* HBHBGradientBlurView.swift */,
 				D887450A2760558E00133FC5 /* UIImage+Extension.swift */,
-				D887450C276056C300133FC5 /* HBHBGradientBlurView.swift */,
 				DDA4F004F98D997187ED32F02945321C /* Pod */,
 				5A949CC810E497F2E847BD6A3A19E436 /* Support Files */,
 			);
@@ -386,9 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D878019E2761F47100BAC7C9 /* HBHBGradientBlurView.swift in Sources */,
 				8AB06FC460BB78E667536F2773E1EA19 /* HBGradientBlur-dummy.m in Sources */,
 				D887450B2760558E00133FC5 /* UIImage+Extension.swift in Sources */,
-				D887450D276056C300133FC5 /* HBHBGradientBlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
