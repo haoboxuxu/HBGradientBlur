@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/HBGradientBlur.svg?style=flat)](https://cocoapods.org/pods/HBGradientBlur)
 [![Platform](https://img.shields.io/cocoapods/p/HBGradientBlur.svg?style=flat)](https://cocoapods.org/pods/HBGradientBlur)
 
+## Demo
+
+<img src="./demoimages/demo1.jpg" alt="demo_1" style="zoom: 10%;" />
+
+<img src="./demoimages/demo2.jpg" alt="demo_1" style="zoom: 10%;" />
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
