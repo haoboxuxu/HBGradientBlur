@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBGradientBlur'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A GradientBlur UIView to build blur back ground like apple music.'
 
 # This description is used to generate tags and improve search results.
